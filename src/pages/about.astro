@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import AboutHeroImage from '../assets/evallesp-blog.jpeg';
+---
+
+<Layout
+	title="About Me"
+	description="About evallesp"
+	pubDate={new Date('June 15 2025')}
+>
+    {AboutHeroImage && (
+      <img
+        src={AboutHeroImage.src}
+        class="about-hero-image"
+      />
+    )}
+	<p>
+		Software engineer in Seville, Spain.
+		At Red Hat, I help build and maintain the software supply chain for our RHOSO
+		(Red Hat OpenStack Services on OpenShift), mainly working in ci-framework project
+		but also maintaining DLRN project and our upstream deployment: https://trunk.rdoproject.org/
+	</p>
+	<p>
+		In my free time, I'm all about electronic music, morning bike rides, and walks with my dogs.
+	</p>
+</Layout>
