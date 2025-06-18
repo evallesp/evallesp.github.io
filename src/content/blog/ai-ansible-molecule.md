@@ -12,6 +12,7 @@ With this, we want to know:
 * Deconstruct the Ansible Role: Where we're mapping out every "when" condition and variables that are related to them.
 * Analyze molecule test scenarios: Platforms, variable overrides, verification steps...
 * Perform correlation and gap analysis: We want to check which of the role tasks are covered, partial covered or not covered.
+Repo: https://github.com/evallesp/llm-ansible-molecule-coverage
 
 ### Goals
 With this we want to output a report where we have a:
