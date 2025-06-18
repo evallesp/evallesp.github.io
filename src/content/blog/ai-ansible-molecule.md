@@ -33,7 +33,7 @@ The role use ansible for performing the steps:
 * Render a jinja2 template based on the output of the python script a prompt for each role.
 
 ### Output
-We've run the create ansible role without any molecule test. The MD file created:
+After running the ansible role against virtualbmc role we get the following MD file containing the LLM prompt:
 `````````markdown
 # Ansible Role Test Coverage Analysis for 'virtualbmc'
 
